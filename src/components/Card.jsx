@@ -2,15 +2,13 @@ import { Buttons } from './Buttons';
 import { DescriptionContents } from './DescriptionContents';
 import { Footer } from './Footer';
 import { NameSections } from './NameSections';
+import face from '../assets/man-illust.png';
 
 export const Card = () => {
   return (
     <div className="container">
       <main className="main-container">
-        <img
-          src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg"
-          alt="man's face"
-        />
+        <img src={face} alt="man's face" />
         <div className="main-contents">
           <NameSections />
           <div className="buttons">
