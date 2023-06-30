@@ -2,7 +2,7 @@
   "name": "yt-businesscard",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://t-t11.github.io/YT-BusinessCard",
+  "homepage": "https://t-t11.github.io/YT-BusinessCard/",
   "type": "module",
   "scripts": {
     "dev": "vite",
